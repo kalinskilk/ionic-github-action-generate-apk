@@ -1,0 +1,7 @@
+{
+  "name": "ionic-apk-github-actions",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
