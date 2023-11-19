@@ -47,6 +47,6 @@ jobs:
       - name: Upload generated APK to Github
         uses: actions/upload-artifact@v3
         with:
-          name: app-no-wait-dev
+          name: app-dev
           path: ./android/app/build/outputs/apk/debug/app-debug.apk
-          retention-days: 10
+          retention-days: 3
